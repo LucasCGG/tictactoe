@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tictactoe"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.1.0] /home/lubu/.gradle/caches/transforms-3/c98fce6fc299c0d5418e0eb0f1b249dc/transformed/firebase-database-20.1.0/AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-database:20.1.0] /home/lubu/.gradle/caches/transforms-3/c98fce6fc299c0d5418e0eb0f1b249dc/transformed/firebase-database-20.1.0/AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.1.0] /home/lubu/.gradle/caches/transforms-3/c98fce6fc299c0d5418e0eb0f1b249dc/transformed/firebase-database-20.1.0/AndroidManifest.xml:25:5-67
+14-->[com.google.firebase:firebase-database:20.1.0] /home/lubu/.gradle/caches/transforms-3/c98fce6fc299c0d5418e0eb0f1b249dc/transformed/firebase-database-20.1.0/AndroidManifest.xml:25:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] /home/lubu/.gradle/caches/transforms-3/5343c53896619bdcaa0eb3013a1810d1/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.tictactoe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] /home/lubu/.gradle/caches/transforms-3/5343c53896619bdcaa0eb3013a1810d1/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] /home/lubu/.gradle/caches/transforms-3/5343c53896619bdcaa0eb3013a1810d1/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.tictactoe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] /home/lubu/.gradle/caches/transforms-3/5343c53896619bdcaa0eb3013a1810d1/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] /home/lubu/.gradle/caches/transforms-3/5343c53896619bdcaa0eb3013a1810d1/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:5:5-27:19
+23        android:allowBackup="true"
+23-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:6:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] /home/lubu/.gradle/caches/transforms-3/5343c53896619bdcaa0eb3013a1810d1/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:7:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:8:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:9:9-43
+30        android:label="@string/app_name"
+30-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:10:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:11:9-54
+32        android:supportsRtl="true"
+32-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:12:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.TicTacToe" >
+34-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:13:9-47
+35        <activity
+35-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:15:9-17:40
+36            android:name="com.example.tictactoe.GameActivity"
+36-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:16:13-41
+37            android:exported="false" />
+37-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:17:13-37
+38        <activity
+38-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:18:9-26:20
+39            android:name="com.example.tictactoe.MainActivity"
+39-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:19:13-41
+40            android:exported="true" >
+40-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:20:13-36
+41            <intent-filter>
+41-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:21:13-25:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:22:17-69
+42-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:22:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:24:17-77
+44-->/home/lubu/AndroidStudioProjects/TicTacToe/app/src/main/AndroidManifest.xml:24:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->[com.google.firebase:firebase-database:20.1.0] /home/lubu/.gradle/caches/transforms-3/c98fce6fc299c0d5418e0eb0f1b249dc/transformed/firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
+49            android:name="com.google.firebase.components.ComponentDiscoveryService"
+49-->[com.google.firebase:firebase-database:20.1.0] /home/lubu/.gradle/caches/transforms-3/c98fce6fc299c0d5418e0eb0f1b249dc/transformed/firebase-database-20.1.0/AndroidManifest.xml:29:13-84
+50            android:directBootAware="true"
+50-->[com.google.firebase:firebase-common:20.2.0] /home/lubu/.gradle/caches/transforms-3/0607b4c8157a9aef90f54456e970c5c1/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+51            android:exported="false" >
+51-->[com.google.firebase:firebase-database:20.1.0] /home/lubu/.gradle/caches/transforms-3/c98fce6fc299c0d5418e0eb0f1b249dc/transformed/firebase-database-20.1.0/AndroidManifest.xml:30:13-37
+52            <meta-data
+52-->[com.google.firebase:firebase-database:20.1.0] /home/lubu/.gradle/caches/transforms-3/c98fce6fc299c0d5418e0eb0f1b249dc/transformed/firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+53                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+53-->[com.google.firebase:firebase-database:20.1.0] /home/lubu/.gradle/caches/transforms-3/c98fce6fc299c0d5418e0eb0f1b249dc/transformed/firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-database:20.1.0] /home/lubu/.gradle/caches/transforms-3/c98fce6fc299c0d5418e0eb0f1b249dc/transformed/firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+55        </service>
+56
+57        <activity
+57-->[com.google.android.gms:play-services-base:18.0.1] /home/lubu/.gradle/caches/transforms-3/c9fe87b63d9de461e1adc02a43fddac8/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+58-->[com.google.android.gms:play-services-base:18.0.1] /home/lubu/.gradle/caches/transforms-3/c9fe87b63d9de461e1adc02a43fddac8/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-base:18.0.1] /home/lubu/.gradle/caches/transforms-3/c9fe87b63d9de461e1adc02a43fddac8/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-base:18.0.1] /home/lubu/.gradle/caches/transforms-3/c9fe87b63d9de461e1adc02a43fddac8/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+61
+62        <provider
+62-->[com.google.firebase:firebase-common:20.2.0] /home/lubu/.gradle/caches/transforms-3/0607b4c8157a9aef90f54456e970c5c1/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+63            android:name="com.google.firebase.provider.FirebaseInitProvider"
+63-->[com.google.firebase:firebase-common:20.2.0] /home/lubu/.gradle/caches/transforms-3/0607b4c8157a9aef90f54456e970c5c1/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+64            android:authorities="com.example.tictactoe.firebaseinitprovider"
+64-->[com.google.firebase:firebase-common:20.2.0] /home/lubu/.gradle/caches/transforms-3/0607b4c8157a9aef90f54456e970c5c1/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:20.2.0] /home/lubu/.gradle/caches/transforms-3/0607b4c8157a9aef90f54456e970c5c1/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+66            android:exported="false"
+66-->[com.google.firebase:firebase-common:20.2.0] /home/lubu/.gradle/caches/transforms-3/0607b4c8157a9aef90f54456e970c5c1/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+67            android:initOrder="100" />
+67-->[com.google.firebase:firebase-common:20.2.0] /home/lubu/.gradle/caches/transforms-3/0607b4c8157a9aef90f54456e970c5c1/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:18.1.0] /home/lubu/.gradle/caches/transforms-3/1b85e52a16b2910bb9f263a005b41935/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:18.1.0] /home/lubu/.gradle/caches/transforms-3/1b85e52a16b2910bb9f263a005b41935/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:18.1.0] /home/lubu/.gradle/caches/transforms-3/1b85e52a16b2910bb9f263a005b41935/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.2.0] /home/lubu/.gradle/caches/transforms-3/bec68125f50d7f832f9179c410973ad1/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.2.0] /home/lubu/.gradle/caches/transforms-3/bec68125f50d7f832f9179c410973ad1/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+75            android:authorities="com.example.tictactoe.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.2.0] /home/lubu/.gradle/caches/transforms-3/bec68125f50d7f832f9179c410973ad1/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.2.0] /home/lubu/.gradle/caches/transforms-3/bec68125f50d7f832f9179c410973ad1/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.2.0] /home/lubu/.gradle/caches/transforms-3/bec68125f50d7f832f9179c410973ad1/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.2.0] /home/lubu/.gradle/caches/transforms-3/bec68125f50d7f832f9179c410973ad1/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.2.0] /home/lubu/.gradle/caches/transforms-3/bec68125f50d7f832f9179c410973ad1/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/lubu/.gradle/caches/transforms-3/bca37bf206c469be5afbc315333fb89a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/lubu/.gradle/caches/transforms-3/bca37bf206c469be5afbc315333fb89a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/lubu/.gradle/caches/transforms-3/bca37bf206c469be5afbc315333fb89a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+83        </provider>
+84    </application>
+85
+86</manifest>
